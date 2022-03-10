@@ -65,7 +65,6 @@ header {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-color);
-  background-color: initial;
 }
 
 nav ul {
@@ -107,11 +106,19 @@ nav ul li a {
   line-height: 10.9rem;
 }
 
+#button-toggle {
+  display: none;
+}
+
 .content-title-img img {
   position: absolute;
   bottom: 0;
   max-width: 100%;
   height: auto;
+}
+
+.logo>h1, .header-toggle, #text-toggle, .blur-mobile {
+  display: none;
 }
 
 /* Medias Queries*/
@@ -143,8 +150,93 @@ nav ul li a {
   #logo {
     width: 3.87rem;
   }
-
 }
 
 /* Mobile Mode */
-@media(max-width: 1024px) {}
+@media(max-width: 1024px) {
+
+  nav, #logo, #button, .blur {
+    display: none;
+  }
+
+  body {
+    position: relative;
+  }
+
+  header {
+    margin: 0;
+  }
+
+  .header-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 37px 25px 25px 25px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 88.5px;
+  }
+
+  #button-toggle {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--button);
+    border-radius: 6px;
+    padding: 1rem 5rem 1rem 3rem;
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 98px;
+    position: relative;
+  }
+
+  a img {
+    position: absolute;
+    top: 11px;
+    right: 30px;
+  }
+
+  #text-toggle {
+    display: inline;
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 88px;
+    width: 370px;
+  }
+
+  .content-title-img {
+    margin-top: 0;
+  }
+
+  .content-title-img .img-coffee {
+    position: unset;
+    max-width: 100%;
+    height: auto;
+    margin-top: 98px;
+  }
+
+  .content-title-img h1 {
+    font-size: 5rem;
+    line-height: 6.83rem;
+  }
+
+  .content-title-img h2 {
+    font-size: 5rem;
+    line-height: 6.83rem;
+  }
+
+  .blur-mobile {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+  }
+
+}
