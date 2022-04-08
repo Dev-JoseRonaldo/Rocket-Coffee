@@ -35,7 +35,7 @@ Bibliotecas
 
 ## 💻 Projeto
 
-Rocket Coffee é um desafio, promovido por Rocketseat.com, que tem como objetivo desenvolver uma homepage, responsivo, para uma marca de café. O maior objetivo desse desafio é seguir o fielmente todo o layout disponibilizado e deixa-lo totalmente responsivo.
+Rocket Coffee é um desafio, promovido por Rocketseat.com, que tem como objetivo desenvolver uma homepage, responsivo, para uma marca de café. O maior objetivo desse desafio é seguir fielmente todo o layout disponibilizado e deixa-lo totalmente responsivo.
 
 Você pode visualizar toda descrição do desafio átraves [desse link](https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72#85831b6597fd473483e65de5ac5dfa2e).
 
